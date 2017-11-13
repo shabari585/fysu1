@@ -171,7 +171,7 @@ export class CheckoutComponent implements OnInit {
     this.basket_num = parseInt(localStorage.getItem('basket_number'));
     if (this.basket_num === undefined || this.basket_num === null || this.basket_num === 0 || isNaN(this.basket_num) === true) {
       // redirect to menu
-      this.router.navigate(['/menu']);
+      //this.router.navigate(['/menu']);
       // alert('no');
     }else {
       // alert('yes');

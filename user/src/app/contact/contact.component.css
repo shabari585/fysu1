@@ -1,7 +1,7 @@
 .title-img-div {
   background-image: url('../../assets/img/contact-us.jpg');
   background-size: cover;
-  background-position: 0% 54%;
+  background-position: center;
 }
 .contact-core{
     position: relative;
@@ -33,4 +33,9 @@ table img{
 .jumbotron{
     padding-top:0px !important;
 }
+
+
+@media screen and (min-width:220px) and (max-width:740px){
+   .bgw{text-align: center;}
+  }
 

@@ -31,3 +31,6 @@ button {
   color: #fff;
   border: none;
 }
+@media screen and (min-width:220px) and (max-width:740px) {
+  .container{margin-left: 21%;}
+}

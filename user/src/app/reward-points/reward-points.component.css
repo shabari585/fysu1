@@ -20,7 +20,7 @@
 
 .redeem-points-div {
   position: relative;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   flex-direction: row;

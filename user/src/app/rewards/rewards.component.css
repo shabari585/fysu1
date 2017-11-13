@@ -39,6 +39,7 @@
   background-image: url('../../assets/img/gift.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .rewards-main {
@@ -222,7 +223,7 @@
 
 .redeem-points-div {
   position: relative;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -362,4 +363,15 @@
   border-radius: 4px;
   font-weight: bold;
 }
+
+.right-rew-section ul li p{
+  text-align: justify;
+}
+
+@media screen and (min-width:220px) and (max-width:740px){
+  .right-rew-section{width: 100%;}
+  .left-rew-section{width: 100%;}
+}
+
+
 

@@ -1124,3 +1124,31 @@ label{
 
 @media (min-width: 1200px) {}
 
+@media screen and (min-width:240px) and (max-width:740px){
+  .sch-main-back{
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+   
+  }
+  .sch-main-back p{
+    
+  }
+  
+  .sch-main-back .schedule-rep-btn{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 120px;
+    top: 20%;
+  }
+}
+
+

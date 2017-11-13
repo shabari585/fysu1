@@ -84,6 +84,9 @@ export class HomeComponent implements OnInit {
         }
       });
     });
+
+      
+
   }
   public gotoHowitWorks() {
     $('html, body').animate({ scrollTop: $('.how-it-works-div').offset().top - 70 }, 1000);
